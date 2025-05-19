@@ -1,0 +1,139 @@
+/*
+primary color: #24cc8c;
+secondary color: #B6FFA1;
+body background color: #00FF9C;
+*/
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #24cc8c;
+}
+.logo img {
+    width: 80px;
+}
+nav ul{
+list-style-type: none;
+display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: #00FF9C;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: aqua;
+}
+#hero images {
+width: 100%;
+}
+#about {
+    background-image: url(./asset/Untitled\ design\ \(1\).png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #24cc8c;
+}
+
+#about h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #about p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+  
+#product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+   
+
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+
+  #product h2:hover {
+    color: #00FF9C;
+    
+  }
+  
+  
+  #pr
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  footer {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    border-radius: 0 60px 0 60px;
+  }
+
+  
+  
+
+  
